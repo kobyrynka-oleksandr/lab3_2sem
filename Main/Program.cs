@@ -299,6 +299,9 @@ namespace lab3_2sem
         {
             switch (chooseStudent)
             {
+                case 'q':
+                    Kobyrynka.Block1(ref array);
+                    break;
                 //Matula=========================================
                 case 'e':
                     Console.WriteLine("Блок 1. Варіант 8. Знищити всі елементи з непарними індексами:");
@@ -319,6 +322,9 @@ namespace lab3_2sem
         {
             switch (chooseStudent)
             {
+                case 'q':
+                    Kobyrynka.Block3(ref array);
+                    break;
                 //Matula=========================================
                 case 'e':
                     Console.WriteLine("Знищити рядки, починаючи з рядка К1 і до рядка К2 (лише якщо увесь цей діапазон фактично є; якщо\r\nхоча б одного з таких рядків нема, лишити масив без змін).");
