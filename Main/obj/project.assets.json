@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BOHDAN\\Desktop\\Новая папка\\Main\\Main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\BOHDAN\\Desktop\\Main\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\BOHDAN\\Desktop\\Новая папка\\Main\\Main\\Main.csproj",
+      "projectPath": "C:\\Users\\BOHDAN\\Desktop\\Main\\Main\\Main.csproj",
       "packagesPath": "C:\\Users\\BOHDAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BOHDAN\\Desktop\\Новая папка\\Main\\Main\\obj\\",
+      "outputPath": "C:\\Users\\BOHDAN\\Desktop\\Main\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BOHDAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
