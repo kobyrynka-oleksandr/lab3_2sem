@@ -340,10 +340,12 @@ namespace lab3_2sem
                     int k1 = int.Parse(rows[0]);
                     int k2 = int.Parse(rows[1]);
 
-                    //block3.DestroyRows(array, k1, k2);
+                    array = block3.DestroyRows(array, k1, k2);
+                    Console.WriteLine("Отриманий масив після виконання блоку:");
+                    OutputForJaggedArray(array);
 
                     break;
-                //Matula=========================================
+                    //Matula=========================================
             }
         }
     }
