@@ -299,18 +299,45 @@ namespace lab3_2sem
         {
             switch (chooseStudent)
             {
-                case 'q':
-                    //Kobyrynka.Block1(ref array);
+                //Matula=========================================
+                case 'e':
+                    Console.WriteLine("Блок 1. Варіант 8. Знищити всі елементи з непарними індексами:");
+                    BlockOne block1 = new BlockOne();
+
+                    Console.WriteLine($"Введений масив:");
+                    block1.PrintSimpleArray(array);
+
+                    array = block1.DoBlock1byMatula(array);
+
+                    Console.WriteLine("Отриманий масив після виконання блоку:");
+                    block1.PrintSimpleArray(array);
                     break;
+                //Matula=========================================
             }
         }
         public static void DoSelectedTaskBlock3(char chooseStudent, ref int[][] array)
         {
             switch (chooseStudent)
             {
-                case 'q':
-                    //Kobyrynka.Block3(ref array);
+                //Matula=========================================
+                case 'e':
+                    Console.WriteLine("Знищити рядки, починаючи з рядка К1 і до рядка К2 (лише якщо увесь цей діапазон фактично є; якщо\r\nхоча б одного з таких рядків нема, лишити масив без змін).");
+                    BlockThree block3 = new BlockThree();
+
+                    Console.WriteLine($"Введений масив:");
+                    OutputForJaggedArray(array);
+
+                    Console.WriteLine("Введіть два числа (К1 та К2) через пробіл");
+                    string input = Console.ReadLine();
+                    string[] rows = input.Split(' ');
+
+                    int k1 = int.Parse(rows[0]);
+                    int k2 = int.Parse(rows[1]);
+
+                    //block3.DestroyRows(array, k1, k2);
+
                     break;
+                //Matula=========================================
             }
         }
     }
