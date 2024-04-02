@@ -1,0 +1,7 @@
+D:\C# Projects\lab3_2sem\lab3_2sem\bin\Debug\lab3_2sem.exe.config
+D:\C# Projects\lab3_2sem\lab3_2sem\bin\Debug\lab3_2sem.exe
+D:\C# Projects\lab3_2sem\lab3_2sem\bin\Debug\lab3_2sem.pdb
+D:\C# Projects\lab3_2sem\lab3_2sem\obj\Debug\lab3_2sem.csproj.AssemblyReference.cache
+D:\C# Projects\lab3_2sem\lab3_2sem\obj\Debug\lab3_2sem.csproj.CoreCompileInputs.cache
+D:\C# Projects\lab3_2sem\lab3_2sem\obj\Debug\lab3_2sem.exe
+D:\C# Projects\lab3_2sem\lab3_2sem\obj\Debug\lab3_2sem.pdb
