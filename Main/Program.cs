@@ -316,6 +316,9 @@ namespace lab3_2sem
                     block1.PrintSimpleArray(array);
                     break;
                 //Matula=========================================
+                case 'r':
+                    Potaichuk.Block1(ref array);
+                    break;
             }
         }
         public static void DoSelectedTaskBlock3(char chooseStudent, ref int[][] array)
@@ -345,7 +348,10 @@ namespace lab3_2sem
                     OutputForJaggedArray(array);
 
                     break;
-                    //Matula=========================================
+                //Matula=========================================
+                case 'r':
+                    Potaichuk.Block3(ref array);
+                    break;
             }
         }
     }
