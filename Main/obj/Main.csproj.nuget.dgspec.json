@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hi-Tech\\Desktop\\Main\\lab3_2sem\\Main\\Main.csproj": {}
+    "C:\\Users\\roma1\\Desktop\\Новая папка\\lab3_2sem\\Main\\Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hi-Tech\\Desktop\\Main\\lab3_2sem\\Main\\Main.csproj": {
+    "C:\\Users\\roma1\\Desktop\\Новая папка\\lab3_2sem\\Main\\Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hi-Tech\\Desktop\\Main\\lab3_2sem\\Main\\Main.csproj",
+        "projectUniqueName": "C:\\Users\\roma1\\Desktop\\Новая папка\\lab3_2sem\\Main\\Main.csproj",
         "projectName": "Main",
-        "projectPath": "C:\\Users\\Hi-Tech\\Desktop\\Main\\lab3_2sem\\Main\\Main.csproj",
-        "packagesPath": "C:\\Users\\Hi-Tech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hi-Tech\\Desktop\\Main\\lab3_2sem\\Main\\obj\\",
+        "projectPath": "C:\\Users\\roma1\\Desktop\\Новая папка\\lab3_2sem\\Main\\Main.csproj",
+        "packagesPath": "C:\\Users\\roma1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roma1\\Desktop\\Новая папка\\lab3_2sem\\Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hi-Tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roma1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,12 +55,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
