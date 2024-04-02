@@ -32,7 +32,5 @@ namespace lab3_2sem
 
             return newArray;
         }
-        //Matula==================================================
-
     }
 }

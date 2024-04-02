@@ -299,7 +299,6 @@ namespace lab3_2sem
         {
             switch (chooseStudent)
             {
-                //Matula=========================================
                 case 'e':
                     Console.WriteLine("Блок 1. Варіант 8. Знищити всі елементи з непарними індексами:");
                     BlockOne block1 = new BlockOne();
@@ -312,14 +311,12 @@ namespace lab3_2sem
                     Console.WriteLine("Отриманий масив після виконання блоку:");
                     block1.PrintSimpleArray(array);
                     break;
-                //Matula=========================================
             }
         }
         public static void DoSelectedTaskBlock3(char chooseStudent, ref int[][] array)
         {
             switch (chooseStudent)
             {
-                //Matula=========================================
                 case 'e':
                     Console.WriteLine("Знищити рядки, починаючи з рядка К1 і до рядка К2 (лише якщо увесь цей діапазон фактично є; якщо\r\nхоча б одного з таких рядків нема, лишити масив без змін).");
                     BlockThree block3 = new BlockThree();
@@ -334,10 +331,11 @@ namespace lab3_2sem
                     int k1 = int.Parse(rows[0]);
                     int k2 = int.Parse(rows[1]);
 
-                    //block3.DestroyRows(array, k1, k2);
+                    array = block3.DestroyRows(array, k1, k2);
+                    Console.WriteLine("Отриманий масив після виконання блоку:");
+                    OutputForJaggedArray(array);
 
                     break;
-                //Matula=========================================
             }
         }
     }

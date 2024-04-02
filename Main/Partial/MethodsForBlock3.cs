@@ -9,24 +9,36 @@ namespace lab3_2sem
     public partial class BlockThree
     {
         //Matula==================================================
-        public static void DestroyRows(int[][] jaggedArray, int k1, int k2)
+
+        public int[][] DestroyRows(int[][] jaggedArray, int K1, int K2)
         {
-            // Перевірка діапазону
-            if (k1 < 0 || k2 < 0 || k1 > k2 || k2 >= jaggedArray.Length)
+            if (K1 >= 0 && K1 < jaggedArray.Length && K2 >= 0 && K2 < jaggedArray.Length)
             {
-                return;
-            }
+                // Знайти кількість рядків для видалення
+                int countToRemove = K2 - K1 + 1;
 
-            // Зсув хвоста
-            for (int i = k2 + 1; i < jaggedArray.Length; i++)
+                // Перевірити, чи є рядки для видалення
+                if (countToRemove > 0)
+                {
+                    // Копіювання рядків після видалення
+                    Array.Copy(jaggedArray, K2 + 1, jaggedArray, K1, jaggedArray.Length - K2 - 1);
+
+                    int[][] newJaggedArray = new int[jaggedArray.Length - countToRemove][];
+
+                    // Копіювання решти рядків
+                    Array.Copy(jaggedArray, newJaggedArray, jaggedArray.Length - countToRemove);
+
+                    return newJaggedArray;
+                }
+                else
+                {
+                    return jaggedArray;
+                }
+            }
+            else
             {
-                jaggedArray[i - k2 - 1] = jaggedArray[i];
+                return jaggedArray;
             }
-
-            // Зменшення Length
-            Array.Resize(ref jaggedArray, jaggedArray.Length - (k2 - k1 + 1));
         }
-        //Matula==================================================
-
     }
 }
