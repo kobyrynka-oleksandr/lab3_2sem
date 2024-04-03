@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1YZ80yM12+vngzMj3WuzgyMLtm+jFOf3xKWmHinkNHZMH3l/djpXfzY5FMozjjtifqQNkF/IYMN+d9XSr6M8Iw==",
+  "dgSpecHash": "tPG595mxCkzD2qh57Cj36FJrJxdecu8HRbvZnJ784gDsrmWrqHVssd7bLloXIGSHW1fPiTh1lDR2d1DHFWo5bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\roma1\\Desktop\\Новая папка\\lab3_2sem\\Main\\Main.csproj",
+  "projectFilePath": "C:\\Users\\38068\\Desktop\\Lab3\\lab3_2sem\\Main\\Main.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\roma1\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\roma1\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\roma1\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\roma1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+    "C:\\Users\\38068\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\38068\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\38068\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\38068\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

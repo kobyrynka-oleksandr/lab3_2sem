@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LAB3GIT;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -302,6 +303,9 @@ namespace lab3_2sem
                 case 'q':
                     Kobyrynka.Block1(ref array);
                     break;
+                case 'w':
+                    Belitskyi.Block1(ref array);
+                    break;
                 //Matula=========================================
                 case 'e':
                     Console.WriteLine("Блок 1. Варіант 8. Знищити всі елементи з непарними індексами:");
@@ -327,6 +331,9 @@ namespace lab3_2sem
             {
                 case 'q':
                     Kobyrynka.Block3(ref array);
+                    break;
+                case 'w':
+                    Belitskyi.Block3(ref array);
                     break;
                 //Matula=========================================
                 case 'e':
