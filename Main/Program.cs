@@ -367,7 +367,7 @@ namespace lab3_2sem
                     break;
                 //Matula=========================================
                 case 'r':
-                    Potaichuk.Block3(ref array);
+                    array = Potaichuk.Block3(array);
                     break;
             }
         }
