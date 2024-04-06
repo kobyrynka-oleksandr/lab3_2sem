@@ -44,23 +44,30 @@ namespace LAB3GIT
                 }
             }
         }
-        public static void Block3(ref int[][] jaggedArray)
+        public static void Block3(ref int[][] jaggedArray) // 12 варіант
         {
 
             int maxElement = int.MinValue;
             int maxRowIndex = -1;
+            int nullcount = 0;
             for (int i = 0; i < jaggedArray.Length; i++)
             {
                 if (jaggedArray[i] == null)
                 {
+                    nullcount++;
                     continue;
                 }
-               int currentMaxInRow = jaggedArray[i].Max();
-               if (currentMaxInRow >= maxElement)
-               {
-                  maxElement = currentMaxInRow;
-                  maxRowIndex = i;
-               }
+                int currentMaxInRow = jaggedArray[i].Max();
+                if (currentMaxInRow >= maxElement)
+                {
+                    maxElement = currentMaxInRow;
+                    maxRowIndex = i;
+                }
+            }
+            if (nullcount == jaggedArray.Length)
+            {
+                Console.WriteLine("Всі рядки масиву дорівнюють null. Визначити максимальний елемент в рядку - неможливо. Повернено початковий масив.");
+                return;
             }
             Array.Resize(ref jaggedArray, jaggedArray.Length + 1);
             for (int i = jaggedArray.Length - 1; i > maxRowIndex; i--)
