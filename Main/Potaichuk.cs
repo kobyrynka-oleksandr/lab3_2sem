@@ -9,63 +9,57 @@ class Potaichuk
 {
     public static void Block1(ref int[] array)
     {
-        int smallest = 0;
-        int biggest = 0;
+        int smallest = array[0];
+        int smallestIndex = 0;
+        int biggest = array[0];
+        int biggestIndex = 0;
+        for (int i = 1; i < array.Length; i++)
+        {
+            if (array[i] >= biggest)
+            {
+                biggest = array[i];
+                biggestIndex = i;
+            }
+            if (array[i] < smallest)
+            {
+                smallest = array[i];
+                smallestIndex = i;
+            }
+        }
+        List<int> result = new List<int>();
+        int startIndex = smallestIndex;
+        int endIndex = biggestIndex;
         for (int i = 0; i < array.Length; i++)
         {
-            if (array[i] > array[biggest])
-                biggest = i;
-            if (array[i] < array[smallest])
-                smallest = i;
+            if(smallestIndex<biggestIndex)
+            {
+                if (i <= startIndex || i >= endIndex)
+                {
+                    result.Add(array[i]);
+                }
+            }
+            else
+            {
+                if (i >= startIndex || i <= endIndex)
+                {
+                    result.Add(array[i]);
+                }
+            }
         }
-        int[] resizearray = new int[2];
-        if (smallest < biggest)
-        {
-            resizearray[0] = array[smallest];
-            resizearray[1] = array[biggest];
-        }
-        else
-        {
-            resizearray[0] = array[biggest];
-            resizearray[1] = array[smallest];
-        }
-        Array.Resize(ref array, resizearray.Length);
-        Array.Copy(resizearray, array, resizearray.Length);
-        Print1DArray(ref array);
-        Console.ReadKey();
+        array = result.ToArray();
     }
-    public static void Block3(ref int[][] array)
+    public static int[][] Block3(int[][] array)
     {
-        int xbiggest = 0;
-        int ybiggest = 0;
-        FindBiggestIndex(array, ref xbiggest, ref ybiggest);
+        int RowOfBiggest = 0;
+        int ColOfBiggest = 0;
+        FindBiggestIndex(array, ref RowOfBiggest, ref ColOfBiggest);
         int[][] newarray = new int[array.GetLength(0) - 1][];
-        int indextoremove = xbiggest;
+        int indextoremove = RowOfBiggest;
         Array.Copy(array, 0, newarray, 0, indextoremove);
         Array.Copy(array, indextoremove + 1, newarray, indextoremove, array.GetLength(0) - indextoremove - 1);
-        Console.WriteLine("Масив після видалення рядка:");
-        Print2DArray(newarray);
-        Console.ReadKey();
-
+        return newarray;
     }
-    public static void Print1DArray(ref int[] array)
-    {
-        foreach (int i in array)
-            Console.Write(i + " ");
-    }
-    public static void Print2DArray(int[][] array)
-    {
-        for (int i = 0; i < array.Length; i++)
-        {
-            if (array[i] == null)
-            {
-                Console.WriteLine();
-                continue;
-            }
-            Console.WriteLine(string.Join(" ", array[i]));
-        }
-    }
-    public static void FindBiggestIndex(int[][] array, ref int xbiggest, ref int ybiggest)
+    public static void FindBiggestIndex(int[][] array, ref int RowOfBiggest, ref int ColOfBiggest)
     {
         bool foundValidValue = false;
 
@@ -75,10 +69,10 @@ class Potaichuk
                 continue;
             for (int j = 0; j < array[i].Length; j++)
             {
-                if (!foundValidValue || array[i][j] > array[xbiggest][ybiggest])
+                if (!foundValidValue || array[i][j] > array[RowOfBiggest][ColOfBiggest])
                 {
-                    xbiggest = i;
-                    ybiggest = j;
+                    RowOfBiggest = i;
+                    ColOfBiggest = j;
                     foundValidValue = true;
                 }
             }
