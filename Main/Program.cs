@@ -93,8 +93,13 @@ namespace lab3_2sem
                     bool exit = false;
                     while (true)
                     {
-                        Console.WriteLine("1. Використати новий масив; \n2. Вивести поточний стан масиву; \nбудь-яке iнше число: використати поточний масив.");
+                        Console.WriteLine("1. Використати новий масив; \n2. Вивести поточний стан масиву; \n3. Очистити консоль; \nбудь-яке iнше число: використати поточний масив.");
                         int exitToArrayInput = int.Parse(Console.ReadLine());
+                        if (exitToArrayInput == 3)
+                        {
+                            Console.Clear();
+                            continue;
+                        }
                         if (exitToArrayInput == 1 || exitToArrayInput == 2)
                         {
                             if (exitToArrayInput == 1)
@@ -210,8 +215,13 @@ namespace lab3_2sem
                     bool exit = false;
                     while (true)
                     {
-                        Console.WriteLine("1. Використати новий масив; \n2. Вивести поточний стан масиву; \nбудь-яке iнше число: використати поточний масив.");
+                        Console.WriteLine("1. Використати новий масив; \n2. Вивести поточний стан масиву; \n3. Очистити консоль; \nбудь-яке iнше число: використати поточний масив.");
                         int exitToArrayInput = int.Parse(Console.ReadLine());
+                        if (exitToArrayInput == 3)
+                        {
+                            Console.Clear();
+                            continue;
+                        }
                         if (exitToArrayInput == 1 || exitToArrayInput == 2)
                         {
                             if (exitToArrayInput == 1)
