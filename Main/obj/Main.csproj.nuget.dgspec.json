@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\Main.csproj": {}
+    "C:\\Users\\Hi-Tech\\Desktop\\s\\lab3_2sem\\Main\\Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\Main.csproj": {
+    "C:\\Users\\Hi-Tech\\Desktop\\s\\lab3_2sem\\Main\\Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\Main.csproj",
+        "projectUniqueName": "C:\\Users\\Hi-Tech\\Desktop\\s\\lab3_2sem\\Main\\Main.csproj",
         "projectName": "Main",
-        "projectPath": "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\Main.csproj",
-        "packagesPath": "C:\\Users\\roma1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\obj\\",
+        "projectPath": "C:\\Users\\Hi-Tech\\Desktop\\s\\lab3_2sem\\Main\\Main.csproj",
+        "packagesPath": "C:\\Users\\Hi-Tech\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hi-Tech\\Desktop\\s\\lab3_2sem\\Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roma1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hi-Tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

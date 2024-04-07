@@ -18,24 +18,17 @@ namespace lab3_2sem
             }
             if (countEvenElements > 0)
             {
-                Array.Resize(ref array, array.Length + countEvenElements);
-
-                for (int i = 0; i < array.Length - 1; i++)
+                int[] resizedArray = new int[array.Length + countEvenElements];
+                for (int i = 0, j = 0; i < array.Length; i++)
                 {
+                    resizedArray[j++] = array[i];
+
                     if (array[i] % 2 == 0)
                     {
-                        for (int j = array.Length - countEvenElements - 1; j > i; j--)
-                        {
-                            array[j + 1] = array[j];
-                        }
-                        array[i + 1] = 0;
-                        countEvenElements--;
-                        i++;
+                        resizedArray[j++] = 0;
                     }
-
-                    if (countEvenElements == 0)
-                        break;
                 }
+                array = resizedArray;
             }
             else
                 Console.WriteLine("Масив не містить парних елементів.");
