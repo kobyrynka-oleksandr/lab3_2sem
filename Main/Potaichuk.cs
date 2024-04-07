@@ -26,27 +26,42 @@ class Potaichuk
                 smallestIndex = i;
             }
         }
-        List<int> result = new List<int>();
-        int startIndex = smallestIndex;
-        int endIndex = biggestIndex;
-        for (int i = 0; i < array.Length; i++)
+        if (smallestIndex < biggestIndex)
         {
-            if(smallestIndex<biggestIndex)
+            int resultLength = array.Length - (biggestIndex - smallestIndex - 1);
+            int[] result = new int[resultLength];
+            int startIndex = smallestIndex;
+            int endIndex = biggestIndex;
+            int j = 0;
+            for (int i = 0; i < array.Length; i++)
             {
                 if (i <= startIndex || i >= endIndex)
                 {
-                    result.Add(array[i]);
+                    result[j] = array[i];
+                    j++;
                 }
             }
-            else
+            Array.Resize(ref array, resultLength);
+            array = result;
+        }
+        if (smallestIndex > biggestIndex)
+        {
+            int resultLength = array.Length - (smallestIndex-biggestIndex - 1);
+            int[] result = new int[resultLength];
+            int startIndex = smallestIndex;
+            int endIndex = biggestIndex;
+            int j = 0;
+            for (int i = 0; i < array.Length; i++)
             {
                 if (i >= startIndex || i <= endIndex)
                 {
-                    result.Add(array[i]);
+                    result[j] = array[i];
+                    j++;
                 }
             }
+            Array.Resize(ref array, resultLength);
+            array = result;
         }
-        array = result.ToArray();
     }
     public static int[][] Block3(int[][] array)
     {

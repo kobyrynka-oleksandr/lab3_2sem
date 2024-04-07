@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\Main.csproj": {}
+    "C:\\Users\\roma1\\source\\repos\\лаба3\\lab3_2sem\\Main\\Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\Main.csproj": {
+    "C:\\Users\\roma1\\source\\repos\\лаба3\\lab3_2sem\\Main\\Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\Main.csproj",
+        "projectUniqueName": "C:\\Users\\roma1\\source\\repos\\лаба3\\lab3_2sem\\Main\\Main.csproj",
         "projectName": "Main",
-        "projectPath": "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\Main.csproj",
+        "projectPath": "C:\\Users\\roma1\\source\\repos\\лаба3\\lab3_2sem\\Main\\Main.csproj",
         "packagesPath": "C:\\Users\\roma1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roma1\\source\\repos\\лаба3\\Main\\obj\\",
+        "outputPath": "C:\\Users\\roma1\\source\\repos\\лаба3\\lab3_2sem\\Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roma1\\AppData\\Roaming\\NuGet\\NuGet.Config",
