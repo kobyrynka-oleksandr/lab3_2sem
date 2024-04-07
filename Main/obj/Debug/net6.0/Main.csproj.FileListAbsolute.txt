@@ -70,3 +70,17 @@ C:\Users\roma1\source\repos\лаба3\Main\obj\Debug\net6.0\refint\Main.dll
 C:\Users\roma1\source\repos\лаба3\Main\obj\Debug\net6.0\Main.pdb
 C:\Users\roma1\source\repos\лаба3\Main\obj\Debug\net6.0\Main.genruntimeconfig.cache
 C:\Users\roma1\source\repos\лаба3\Main\obj\Debug\net6.0\ref\Main.dll
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\bin\Debug\net6.0\Main.exe
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\bin\Debug\net6.0\Main.deps.json
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\bin\Debug\net6.0\Main.runtimeconfig.json
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\bin\Debug\net6.0\Main.dll
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\bin\Debug\net6.0\Main.pdb
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\Main.AssemblyInfoInputs.cache
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\Main.AssemblyInfo.cs
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\Main.csproj.CoreCompileInputs.cache
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\Main.dll
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\refint\Main.dll
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\Main.pdb
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\Main.genruntimeconfig.cache
+C:\Users\Hi-Tech\Desktop\s\lab3_2sem\Main\obj\Debug\net6.0\ref\Main.dll
